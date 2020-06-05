@@ -1,0 +1,6 @@
+//cria uma nova migração
+yarn sequelize migration:create --name "nome_da_migração"
+
+//Após a criação faz-se as alterações necessárias e executa o migrate
+//Executa as migrações pendentes
+yarn sequelize db:migrate
